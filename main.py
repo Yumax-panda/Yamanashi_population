@@ -53,5 +53,5 @@ plt.plot(x,y_pred,color="green",label="Training_set")
 plt.plot(x[100:],y_val,color="red",label="Prediction")
 plt.legend(("Sample_data","Training_set","Prediction"),loc="center left")
 
-plt.savefig(f"output{Alpha}.pdf")
+plt.savefig(f"output{Alpha}.png")
 plt.show()
